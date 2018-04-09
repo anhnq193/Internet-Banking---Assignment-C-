@@ -10,6 +10,8 @@ namespace InternetBanking_AsmCShape
     {
         static void Main(string[] args)
         {
+            Console.Write("hello");
+            Console.Read();
         }
     }
 }

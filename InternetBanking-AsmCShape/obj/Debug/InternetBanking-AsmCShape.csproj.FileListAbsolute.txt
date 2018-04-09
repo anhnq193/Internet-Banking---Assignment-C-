@@ -1,0 +1,7 @@
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\obj\Debug\InternetBanking-AsmCShape.csprojResolveAssemblyReference.cache
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\obj\Debug\InternetBanking-AsmCShape.csproj.CoreCompileInputs.cache
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\bin\Debug\InternetBanking-AsmCShape.exe.config
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\bin\Debug\InternetBanking-AsmCShape.exe
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\bin\Debug\InternetBanking-AsmCShape.pdb
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\obj\Debug\InternetBanking-AsmCShape.exe
+C:\Users\anhnq\Documents\C#Project\InternetBanking-AsmCShape\InternetBanking-AsmCShape\obj\Debug\InternetBanking-AsmCShape.pdb
