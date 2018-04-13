@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `Bank` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `Bank`;
+CREATE DATABASE  IF NOT EXISTS `internet-banking` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `internet-banking`;
 -- MySQL dump 10.13  Distrib 5.7.17, for macos10.12 (x86_64)
 --
--- Host: localhost    Database: Bank
+-- Host: localhost    Database: internet-banking
 -- ------------------------------------------------------
 -- Server version	5.7.21
 
@@ -40,8 +40,8 @@ CREATE TABLE `Transactions` (
 --
 
 LOCK TABLES `Transactions` WRITE;
-/*!40000 ALTER TABLE `Transections` DISABLE KEYS */;
-/*!40000 ALTER TABLE `Transections` ENABLE KEYS */;
+/*!40000 ALTER TABLE `Transactions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Transactions` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
