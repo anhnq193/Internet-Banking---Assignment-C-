@@ -22,14 +22,22 @@ namespace InternetBanking_AsmCShape
 
         private static void OpenConnection()
         {
-            server = "localhost";
-            database = "internet_banking";
-            uid = "root";
-            password = "";
-            string connectionString;
-            connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";CharSet=utf8;";
-            connection = new MySqlConnection(connectionString);
+            try
+            {
+                server = "localhost";
+                database = "internet_banking";
+                uid = "root";
+                password = "";
+                string connectionString;
+                connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+                database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";CharSet=utf8;";
+                connection = new MySqlConnection(connectionString);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Cannot connect to server !" + ex.Message);
+            }
+            
         }
 
         public static MySqlConnection GetConnection()
@@ -63,11 +71,11 @@ namespace InternetBanking_AsmCShape
                 switch (ex.Number)
                 {
                     case 0:
-                        Console.WriteLine("Error");
+                        Console.WriteLine("Cannot connect to server");
                         break;
 
                     case 1045:
-                        Console.WriteLine("Error");
+                        Console.WriteLine("Error Invalid");
                         break;
                 }
                 return false;
